@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44950E72522470200CD9ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44950E62522470200CD9ED6 /* AppDelegate.swift */; };
+		F44950E92522470200CD9ED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44950E82522470200CD9ED6 /* SceneDelegate.swift */; };
+		F44950EB2522470200CD9ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44950EA2522470200CD9ED6 /* ViewController.swift */; };
+		F44950EE2522470200CD9ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44950EC2522470200CD9ED6 /* Main.storyboard */; };
+		F44950F02522470500CD9ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44950EF2522470500CD9ED6 /* Assets.xcassets */; };
+		F44950F32522470500CD9ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44950F12522470500CD9ED6 /* LaunchScreen.storyboard */; };
+		F44950FD2522475200CD9ED6 /* Triathlon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44950FC2522475200CD9ED6 /* Triathlon.swift */; };
+		F44951022522744F00CD9ED6 /* SwimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951012522744F00CD9ED6 /* SwimViewController.swift */; };
+		F44951042527430A00CD9ED6 /* BikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951032527430A00CD9ED6 /* BikeViewController.swift */; };
+		F44951062527433100CD9ED6 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951052527433100CD9ED6 /* RunViewController.swift */; };
+		F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951072527A71400CD9ED6 /* StartViewController.swift */; };
+		F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */; };
+		F449510C252E3DF800CD9ED6 /* TriOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F44950E32522470200CD9ED6 /* TriCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44950E62522470200CD9ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44950E82522470200CD9ED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F44950EA2522470200CD9ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44950ED2522470200CD9ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44950EF2522470500CD9ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44950F22522470500CD9ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44950F42522470500CD9ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44950FC2522475200CD9ED6 /* Triathlon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triathlon.swift; sourceTree = "<group>"; };
+		F44951012522744F00CD9ED6 /* SwimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimViewController.swift; sourceTree = "<group>"; };
+		F44951032527430A00CD9ED6 /* BikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeViewController.swift; sourceTree = "<group>"; };
+		F44951052527433100CD9ED6 /* RunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
+		F44951072527A71400CD9ED6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriathlonViewController.swift; sourceTree = "<group>"; };
+		F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriOutputViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44950E02522470200CD9ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44950DA2522470200CD9ED6 = {
+			isa = PBXGroup;
+			children = (
+				F44950E52522470200CD9ED6 /* TriCalculator */,
+				F44950E42522470200CD9ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44950E42522470200CD9ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44950E32522470200CD9ED6 /* TriCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44950E52522470200CD9ED6 /* TriCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F44950FE2522475B00CD9ED6 /* Model */,
+				F44950FA2522472E00CD9ED6 /* View */,
+				F44950FB2522473600CD9ED6 /* Controller */,
+				F44950EF2522470500CD9ED6 /* Assets.xcassets */,
+				F44950E62522470200CD9ED6 /* AppDelegate.swift */,
+				F44950E82522470200CD9ED6 /* SceneDelegate.swift */,
+				F44950F42522470500CD9ED6 /* Info.plist */,
+			);
+			path = TriCalculator;
+			sourceTree = "<group>";
+		};
+		F44950FA2522472E00CD9ED6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F44950F12522470500CD9ED6 /* LaunchScreen.storyboard */,
+				F44950EC2522470200CD9ED6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F44950FB2522473600CD9ED6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F44950EA2522470200CD9ED6 /* ViewController.swift */,
+				F44951012522744F00CD9ED6 /* SwimViewController.swift */,
+				F44951032527430A00CD9ED6 /* BikeViewController.swift */,
+				F44951052527433100CD9ED6 /* RunViewController.swift */,
+				F44951072527A71400CD9ED6 /* StartViewController.swift */,
+				F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */,
+				F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F44950FE2522475B00CD9ED6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F44950FC2522475200CD9ED6 /* Triathlon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44950E22522470200CD9ED6 /* TriCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44950F72522470500CD9ED6 /* Build configuration list for PBXNativeTarget "TriCalculator" */;
+			buildPhases = (
+				F44950DF2522470200CD9ED6 /* Sources */,
+				F44950E02522470200CD9ED6 /* Frameworks */,
+				F44950E12522470200CD9ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriCalculator;
+			productName = TriCalculator;
+			productReference = F44950E32522470200CD9ED6 /* TriCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44950DB2522470200CD9ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Wojtek Krupowies";
+				TargetAttributes = {
+					F44950E22522470200CD9ED6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = F44950DE2522470200CD9ED6 /* Build configuration list for PBXProject "TriCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44950DA2522470200CD9ED6;
+			productRefGroup = F44950E42522470200CD9ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44950E22522470200CD9ED6 /* TriCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44950E12522470200CD9ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44950F32522470500CD9ED6 /* LaunchScreen.storyboard in Resources */,
+				F44950F02522470500CD9ED6 /* Assets.xcassets in Resources */,
+				F44950EE2522470200CD9ED6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44950DF2522470200CD9ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44950EB2522470200CD9ED6 /* ViewController.swift in Sources */,
+				F449510C252E3DF800CD9ED6 /* TriOutputViewController.swift in Sources */,
+				F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */,
+				F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */,
+				F44950E72522470200CD9ED6 /* AppDelegate.swift in Sources */,
+				F44951022522744F00CD9ED6 /* SwimViewController.swift in Sources */,
+				F44951042527430A00CD9ED6 /* BikeViewController.swift in Sources */,
+				F44951062527433100CD9ED6 /* RunViewController.swift in Sources */,
+				F44950E92522470200CD9ED6 /* SceneDelegate.swift in Sources */,
+				F44950FD2522475200CD9ED6 /* Triathlon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F44950EC2522470200CD9ED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44950ED2522470200CD9ED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44950F12522470500CD9ED6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44950F22522470500CD9ED6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44950F52522470500CD9ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44950F62522470500CD9ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44950F82522470500CD9ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W636AZ5QY;
+				INFOPLIST_FILE = TriCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wojo.TriCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F44950F92522470500CD9ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W636AZ5QY;
+				INFOPLIST_FILE = TriCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wojo.TriCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44950DE2522470200CD9ED6 /* Build configuration list for PBXProject "TriCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44950F52522470500CD9ED6 /* Debug */,
+				F44950F62522470500CD9ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44950F72522470500CD9ED6 /* Build configuration list for PBXNativeTarget "TriCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44950F82522470500CD9ED6 /* Debug */,
+				F44950F92522470500CD9ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44950DB2522470200CD9ED6 /* Project object */;
+}
