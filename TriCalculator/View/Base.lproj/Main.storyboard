@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ONF-gQ-5O0">
-    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iY-be-hLV">
@@ -86,11 +86,11 @@
             <objects>
                 <viewController id="kTX-gw-zsa" customClass="SwimViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B8p-gg-rbs">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="bar-Te-XYO">
-                                <rect key="frame" x="240.5" y="283.5" width="353" height="627"/>
+                                <rect key="frame" x="30.5" y="134.5" width="353" height="627"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jV2-4R-AOo" userLabel="DistanceView">
                                         <rect key="frame" x="50" y="0.0" width="253.5" height="175"/>
@@ -349,7 +349,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ONF-gQ-5O0" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="WE8-Oo-4TJ">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="102"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.89275397540000001" green="0.41489732419999997" blue="0.91895038630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="largeTitleTextAttributes">
@@ -370,7 +370,7 @@
             <objects>
                 <viewController id="Vlq-oh-U6n" customClass="BikeViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="btq-8l-ePX">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-Tr-59e">
@@ -510,7 +510,7 @@
             <objects>
                 <viewController id="dJ2-Jj-zVJ" customClass="RunViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F0Y-BU-GdE">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z0W-8y-kiU">
@@ -649,7 +649,7 @@
             <objects>
                 <viewController id="TRk-SB-rXf" customClass="TriathlonViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nie-BR-hUy">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-Kn-ALs">
@@ -723,7 +723,7 @@
                                     <action selector="calcTriPaceButton:" destination="TRk-SB-rXf" eventType="touchUpInside" id="EdY-aR-Bbt"/>
                                     <action selector="calculateRunPaceButton:" destination="dJ2-Jj-zVJ" eventType="touchUpInside" id="Bti-W7-IdJ"/>
                                     <action selector="calculateSwimPaceButton:" destination="kTX-gw-zsa" eventType="touchUpInside" id="fdy-Vw-TeQ"/>
-                                    <segue destination="n6H-h0-lRO" kind="show" id="FyH-Y7-fOI"/>
+                                    <segue destination="n6H-h0-lRO" kind="show" identifier="triOutputSegue" id="FyH-Y7-fOI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -749,7 +749,7 @@
             <objects>
                 <viewController id="n6H-h0-lRO" customClass="TriOutputViewController" customModule="TriCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jlG-aO-krd">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SX3-ZY-T9C"/>

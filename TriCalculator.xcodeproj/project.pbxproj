@@ -20,7 +20,22 @@
 		F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951072527A71400CD9ED6 /* StartViewController.swift */; };
 		F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */; };
 		F449510C252E3DF800CD9ED6 /* TriOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */; };
+		F4C6D03F2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D03E2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png */; };
+		F4C6D0412629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0402629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png */; };
+		F4C6D0432629D03700401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0422629D03600401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png */; };
+		F4C6D0452629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0442629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png */; };
+		F4C6D058262A26CC00401995 /* TriCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C6D05A262A26CC00401995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44950DB2522470200CD9ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44950E22522470200CD9ED6;
+			remoteInfo = TriCalculator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F44950E32522470200CD9ED6 /* TriCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,10 +53,24 @@
 		F44951072527A71400CD9ED6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriathlonViewController.swift; sourceTree = "<group>"; };
 		F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriOutputViewController.swift; sourceTree = "<group>"; };
+		F4C6D03E2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zrzut ekranu 2021-04-16 o 15.58.01.png"; sourceTree = "<group>"; };
+		F4C6D0402629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zrzut ekranu 2021-04-16 o 16.00.10.png"; sourceTree = "<group>"; };
+		F4C6D0422629D03600401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zrzut ekranu 2021-04-16 o 16.01.20.png"; sourceTree = "<group>"; };
+		F4C6D0442629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zrzut ekranu 2021-04-16 o 16.02.58.png"; sourceTree = "<group>"; };
+		F4C6D055262A26CB00401995 /* TriCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriCalculatorTests.swift; sourceTree = "<group>"; };
+		F4C6D059262A26CC00401995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F44950E02522470200CD9ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C6D052262A26CB00401995 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,7 +83,9 @@
 		F44950DA2522470200CD9ED6 = {
 			isa = PBXGroup;
 			children = (
+				F4C6D03D2629CF2A00401995 /* Readme */,
 				F44950E52522470200CD9ED6 /* TriCalculator */,
+				F4C6D056262A26CC00401995 /* TriCalculatorTests */,
 				F44950E42522470200CD9ED6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F44950E32522470200CD9ED6 /* TriCalculator.app */,
+				F4C6D055262A26CB00401995 /* TriCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +144,26 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F4C6D03D2629CF2A00401995 /* Readme */ = {
+			isa = PBXGroup;
+			children = (
+				F4C6D0402629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png */,
+				F4C6D0422629D03600401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png */,
+				F4C6D03E2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png */,
+				F4C6D0442629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png */,
+			);
+			path = Readme;
+			sourceTree = "<group>";
+		};
+		F4C6D056262A26CC00401995 /* TriCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */,
+				F4C6D059262A26CC00401995 /* Info.plist */,
+			);
+			path = TriCalculatorTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +184,24 @@
 			productReference = F44950E32522470200CD9ED6 /* TriCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4C6D054262A26CB00401995 /* TriCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C6D05E262A26CC00401995 /* Build configuration list for PBXNativeTarget "TriCalculatorTests" */;
+			buildPhases = (
+				F4C6D051262A26CB00401995 /* Sources */,
+				F4C6D052262A26CB00401995 /* Frameworks */,
+				F4C6D053262A26CB00401995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C6D05B262A26CC00401995 /* PBXTargetDependency */,
+			);
+			name = TriCalculatorTests;
+			productName = TriCalculatorTests;
+			productReference = F4C6D055262A26CB00401995 /* TriCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,6 +214,10 @@
 				TargetAttributes = {
 					F44950E22522470200CD9ED6 = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					F4C6D054262A26CB00401995 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F44950E22522470200CD9ED6;
 					};
 				};
 			};
@@ -161,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				F44950E22522470200CD9ED6 /* TriCalculator */,
+				F4C6D054262A26CB00401995 /* TriCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -171,8 +246,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44950F32522470500CD9ED6 /* LaunchScreen.storyboard in Resources */,
+				F4C6D0432629D03700401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png in Resources */,
 				F44950F02522470500CD9ED6 /* Assets.xcassets in Resources */,
+				F4C6D0452629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png in Resources */,
 				F44950EE2522470200CD9ED6 /* Main.storyboard in Resources */,
+				F4C6D03F2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png in Resources */,
+				F4C6D0412629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C6D053262A26CB00401995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +282,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4C6D051262A26CB00401995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C6D058262A26CC00401995 /* TriCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C6D05B262A26CC00401995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44950E22522470200CD9ED6 /* TriCalculator */;
+			targetProxy = F4C6D05A262A26CC00401995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F44950EC2522470200CD9ED6 /* Main.storyboard */ = {
@@ -370,6 +472,46 @@
 			};
 			name = Release;
 		};
+		F4C6D05C262A26CC00401995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W636AZ5QY;
+				INFOPLIST_FILE = TriCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = krupowies.TriCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriCalculator.app/TriCalculator";
+			};
+			name = Debug;
+		};
+		F4C6D05D262A26CC00401995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W636AZ5QY;
+				INFOPLIST_FILE = TriCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = krupowies.TriCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriCalculator.app/TriCalculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +529,15 @@
 			buildConfigurations = (
 				F44950F82522470500CD9ED6 /* Debug */,
 				F44950F92522470500CD9ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C6D05E262A26CC00401995 /* Build configuration list for PBXNativeTarget "TriCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C6D05C262A26CC00401995 /* Debug */,
+				F4C6D05D262A26CC00401995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

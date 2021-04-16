@@ -12,4 +12,18 @@ struct Triathlon {
     let swimDistance:Double
     let bikeDistance:Double
     let runDistance:Double
+    
+    func calcSwimPace (time: TimeInterval) -> Double{
+        return (time / (self.swimDistance / 100)) / 60
+    }
+    
+    func calculateBikePace(time: TimeInterval)-> Double {
+        return self.bikeDistance/time
+    }
+    
+    func calculateRunPace(time: TimeInterval) -> Double {
+        return (time/(self.runDistance/1000)) / 60
+    }
+    
+    
 }

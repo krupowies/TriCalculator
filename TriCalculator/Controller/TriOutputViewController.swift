@@ -9,9 +9,17 @@
 import UIKit
 
 class TriOutputViewController: UIViewController {
+    
+    var totalTime = 0.0
+    var distanceType = Triathlon(swimDistance: 0.0, bikeDistance: 0.0, runDistance: 0.0)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(totalTime)
+        print(distanceType)
     }
+    
+    
+    
+    
 }

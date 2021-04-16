@@ -65,6 +65,16 @@ class TriathlonViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.destination is TriOutputViewController {
+            let vc = segue.destination as? TriOutputViewController
+            vc?.distanceType = createTriDistance(tag: eventTag)
+            vc?.totalTime = getTriathlonTime()
+        }
+                
+    }
+    
 }
 
 extension TriathlonViewController: UIPickerViewDelegate, UIPickerViewDataSource {
