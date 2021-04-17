@@ -53,11 +53,7 @@ class RunViewController: UIViewController {
         
         return kilometers*1000 + meters
     }
-    
-    func calculateRunPace(distance: Double, time: TimeInterval) -> Double {
-        return (time/(distance/1000)) / 60
-    }
-    
+        
     func showRunPace(pace: Double){
         let roundPace = round(pace*100) / 100
         let minutesValue = Int(roundPace)

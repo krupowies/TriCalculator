@@ -51,11 +51,7 @@ class SwimViewController: UIViewController {
         
         return kilometers*1000 + meters
     }
-    
-    func calculateSwimPace(distance: Double, time: TimeInterval) -> Double{
-        return (time / (distance / 100)) / 60
-    }
-    
+        
     func showSwimPace(pace: Double){
         let roundPace = round(pace*100) / 100
         let minutesValue = Int(roundPace)

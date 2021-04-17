@@ -52,10 +52,6 @@ class BikeViewController: UIViewController {
         return kilometers*1000 + meters
     }
     
-    func calculateBikePace(distance: Double, time: TimeInterval)-> Double {
-        return distance/time
-    }
-    
     func showBikePace(pace: Double) {
         print(pace)
         var roundPace = pace * 3.6

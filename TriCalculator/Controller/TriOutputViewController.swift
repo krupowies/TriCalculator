@@ -18,8 +18,5 @@ class TriOutputViewController: UIViewController {
         print(totalTime)
         print(distanceType)
     }
-    
-    
-    
-    
+        
 }

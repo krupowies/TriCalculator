@@ -25,6 +25,7 @@
 		F4C6D0432629D03700401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0422629D03600401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png */; };
 		F4C6D0452629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0442629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png */; };
 		F4C6D058262A26CC00401995 /* TriCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */; };
+		F4C6D060262AF40E00401995 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D05F262AF40D00401995 /* Calculations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F4C6D055262A26CB00401995 /* TriCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriCalculatorTests.swift; sourceTree = "<group>"; };
 		F4C6D059262A26CC00401995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C6D05F262AF40D00401995 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F44950FC2522475200CD9ED6 /* Triathlon.swift */,
+				F4C6D05F262AF40D00401995 /* Calculations.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */,
 				F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */,
 				F44950E72522470200CD9ED6 /* AppDelegate.swift in Sources */,
+				F4C6D060262AF40E00401995 /* Calculations.swift in Sources */,
 				F44951022522744F00CD9ED6 /* SwimViewController.swift in Sources */,
 				F44951042527430A00CD9ED6 /* BikeViewController.swift in Sources */,
 				F44951062527433100CD9ED6 /* RunViewController.swift in Sources */,
