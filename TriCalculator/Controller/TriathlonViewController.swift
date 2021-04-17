@@ -46,22 +46,22 @@ class TriathlonViewController: UIViewController {
         switch tag {
         case 0:
             print(tag)
-            return Triathlon(swimDistance: 7.6, bikeDistance: 360.0, runDistance: 84.4)
+            return Triathlon(swimDistance: 7.6, bikeDistance: 360.0, runDistance: 84.4, swimTimeRatio: 0.102, bikeTimeRatio: 0.55, runTimeRatio: 0.348)
         case 1:
             print(tag)
-            return Triathlon(swimDistance: 3.8, bikeDistance: 180.0, runDistance: 42.2)
+            return Triathlon(swimDistance: 3.8, bikeDistance: 180.0, runDistance: 42.2, swimTimeRatio: 0.102, bikeTimeRatio: 0.55, runTimeRatio: 0.348)
         case 2:
             print(tag)
-            return Triathlon(swimDistance: 1.9, bikeDistance: 90.0, runDistance: 21.1)
+            return Triathlon(swimDistance: 1.9, bikeDistance: 90.0, runDistance: 21.1, swimTimeRatio: 0.11, bikeTimeRatio: 0.59, runTimeRatio: 0.3)
         case 3:
             print(tag)
-            return Triathlon(swimDistance: 1.5, bikeDistance: 45.0, runDistance: 10.0)
+            return Triathlon(swimDistance: 1.5, bikeDistance: 45.0, runDistance: 10.0, swimTimeRatio: 0.162, bikeTimeRatio: 0.562, runTimeRatio: 0.276)
         case 4:
             print(tag)
-            return Triathlon(swimDistance: 0.75, bikeDistance: 20.0, runDistance: 5.0)
+            return Triathlon(swimDistance: 0.75, bikeDistance: 20.0, runDistance: 5.0, swimTimeRatio: 0.18, bikeTimeRatio: 0.54, runTimeRatio: 0.28)
         default:
             print(0)
-            return Triathlon(swimDistance: 0.0, bikeDistance: 0.0, runDistance: 0.0)
+            return Triathlon(swimDistance: 0.0, bikeDistance: 0.0, runDistance: 0.0, swimTimeRatio: 0.0, bikeTimeRatio: 0.0, runTimeRatio: 0.0)
         }
     }
     
@@ -69,7 +69,7 @@ class TriathlonViewController: UIViewController {
         
         if segue.destination is TriOutputViewController {
             let vc = segue.destination as? TriOutputViewController
-            vc?.distanceType = createTriDistance(tag: eventTag)
+            vc?.currentTriathlon = createTriDistance(tag: eventTag)
             vc?.totalTime = getTriathlonTime()
         }
                 
