@@ -29,5 +29,40 @@ struct Triathlon {
         return (time/(self.runDistance/1000)) / 60
     }
     
+    mutating func swimFaster(){
+        self.swimTimeRatio = self.swimTimeRatio - 0.01
+        self.bikeTimeRatio = self.bikeTimeRatio + 0.005
+        self.runTimeRatio = self.runTimeRatio + 0.005
+    }
+    
+    mutating func swimSlower(){
+        self.swimTimeRatio = self.swimTimeRatio + 0.01
+        self.bikeTimeRatio = self.bikeTimeRatio - 0.005
+        self.runTimeRatio = self.runTimeRatio - 0.005
+    }
+    
+    mutating func bikeFaster(){
+        self.swimTimeRatio = self.swimTimeRatio + 0.005
+        self.bikeTimeRatio = self.bikeTimeRatio - 0.01
+        self.runTimeRatio = self.runTimeRatio + 0.005
+    }
+    
+    mutating func bikeSlower(){
+        self.swimTimeRatio = self.swimTimeRatio - 0.005
+        self.bikeTimeRatio = self.bikeTimeRatio + 0.01
+        self.runTimeRatio = self.runTimeRatio - 0.005
+    }
+    
+    mutating func runFaster(){
+        self.swimTimeRatio = self.swimTimeRatio + 0.005
+        self.bikeTimeRatio = self.bikeTimeRatio + 0.005
+        self.runTimeRatio = self.runTimeRatio - 0.01
+    }
+    
+    mutating func runSlower(){
+        self.swimTimeRatio = self.swimTimeRatio - 0.005
+        self.bikeTimeRatio = self.bikeTimeRatio - 0.005
+        self.runTimeRatio = self.runTimeRatio + 0.01
+    }
     
 }
