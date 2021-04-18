@@ -32,6 +32,9 @@ class TriOutputViewController: UIViewController {
     
     var totalTime = 0.0
     var currentTriathlon = Triathlon(swimDistance: 0.0, bikeDistance: 0.0, runDistance: 0.0, swimTimeRatio: 0.0, bikeTimeRatio: 0.0, runTimeRatio: 0.0)
+    var currentSwimPace: Double = 0.0
+    var currentBikePace: Double = 0.0
+    var currentRunPace: Double = 0.0
 
     
     @IBAction func fasterSwimButtonTap(_ sender: Any) {
@@ -65,6 +68,14 @@ class TriOutputViewController: UIViewController {
         print(totalTime)
         print(currentTriathlon)
         
+        currentSwimPace = calcTriathlonSwim()
+        currentBikePace = calcTriathlonBike()
+        currentRunPace = calcTriathlonRun()
+        
+        showSwimPace(pace: currentSwimPace)
+        showBikePace(pace: currentBikePace)
+        showRunPace(pace: currentRunPace)
+        
     }
     
     func calcTriathlonSwim() ->Double {
@@ -78,7 +89,7 @@ class TriOutputViewController: UIViewController {
     }
     
     func calcTriathlonRun() -> Double {
-        let runTime = totalTime * currentTriathlon.bikeTimeRatio
+        let runTime = totalTime * currentTriathlon.runTimeRatio
         return currentTriathlon.calculateRunPace(time: runTime)
     }
     

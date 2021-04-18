@@ -9,13 +9,13 @@
 import Foundation
 
 func calculateSwimPace(distance: Double, time: TimeInterval) -> Double{
-    return (time / (distance / 100)) / 60
+    return ((time / (distance / 100)) / 60)
 }
 
 func calculateBikePace(distance: Double, time: TimeInterval)-> Double {
-    return distance/time
+    return (distance/time)
 }
 
 func calculateRunPace(distance: Double, time: TimeInterval) -> Double {
-    return (time/(distance/1000)) / 60
+    return ((time/(distance/1000)) / 60)
 }

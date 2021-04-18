@@ -18,15 +18,15 @@ struct Triathlon {
     var runTimeRatio: Double
     
     func calcSwimPace (time: TimeInterval) -> Double{
-        return (time / (self.swimDistance / 100)) / 60
+        return ((time / ((self.swimDistance*1000) / 100)) / 60)
     }
     
     func calculateBikePace(time: TimeInterval)-> Double {
-        return self.bikeDistance/time
+        return ((self.bikeDistance*1000 )/time)
     }
     
     func calculateRunPace(time: TimeInterval) -> Double {
-        return (time/(self.runDistance/1000)) / 60
+        return ((time/((self.runDistance*1000)/1000)) / 60)
     }
     
     mutating func swimFaster(){
