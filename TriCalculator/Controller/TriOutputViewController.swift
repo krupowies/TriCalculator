@@ -39,27 +39,33 @@ class TriOutputViewController: UIViewController {
     
     @IBAction func fasterSwimButtonTap(_ sender: Any) {
         currentTriathlon.swimFaster()
+        calculateTriathlonPace()
     }
     
     @IBAction func slowerSwimButtonTap(_ sender: Any) {
         currentTriathlon.swimSlower()
+        calculateTriathlonPace()
     }
     
     @IBAction func fasterBikeButtonTap(_ sender: Any) {
         currentTriathlon.bikeFaster()
+        calculateTriathlonPace()
     }
     
     @IBAction func slowerBikeButtonTap(_ sender: Any) {
         currentTriathlon.bikeSlower()
+        calculateTriathlonPace()
     }
     
 
     @IBAction func fasterRunButtonTap(_ sender: Any) {
         currentTriathlon.runFaster()
+        calculateTriathlonPace()
     }
     
     @IBAction func slowerRunButtonTap(_ sender: Any) {
         currentTriathlon.runSlower()
+        calculateTriathlonPace()
     }
     
     
@@ -68,13 +74,7 @@ class TriOutputViewController: UIViewController {
         print(totalTime)
         print(currentTriathlon)
         
-        currentSwimPace = calcTriathlonSwim()
-        currentBikePace = calcTriathlonBike()
-        currentRunPace = calcTriathlonRun()
-        
-        showSwimPace(pace: currentSwimPace)
-        showBikePace(pace: currentBikePace)
-        showRunPace(pace: currentRunPace)
+        calculateTriathlonPace()
         
     }
     
@@ -111,6 +111,16 @@ class TriOutputViewController: UIViewController {
         let minutesValue = Int(roundPace)
         let secondsValue = Int(roundPace.truncatingRemainder(dividingBy: 1) * 60)
         triathlonRunPace.text = String(format: "%02d:%02d", minutesValue,secondsValue )
+    }
+    
+    func calculateTriathlonPace(){
+        currentSwimPace = calcTriathlonSwim()
+        currentBikePace = calcTriathlonBike()
+        currentRunPace = calcTriathlonRun()
+        
+        showSwimPace(pace: currentSwimPace)
+        showBikePace(pace: currentBikePace)
+        showRunPace(pace: currentRunPace)
     }
     
     
