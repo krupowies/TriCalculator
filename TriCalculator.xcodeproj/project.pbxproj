@@ -19,13 +19,14 @@
 		F44951062527433100CD9ED6 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951052527433100CD9ED6 /* RunViewController.swift */; };
 		F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44951072527A71400CD9ED6 /* StartViewController.swift */; };
 		F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4495109252DFA9C00CD9ED6 /* TriathlonViewController.swift */; };
-		F449510C252E3DF800CD9ED6 /* TriOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */; };
 		F4C6D03F2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D03E2629CF7100401995 /* Zrzut ekranu 2021-04-16 o 15.58.01.png */; };
 		F4C6D0412629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0402629CFF200401995 /* Zrzut ekranu 2021-04-16 o 16.00.10.png */; };
 		F4C6D0432629D03700401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0422629D03600401995 /* Zrzut ekranu 2021-04-16 o 16.01.20.png */; };
 		F4C6D0452629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6D0442629D09800401995 /* Zrzut ekranu 2021-04-16 o 16.02.58.png */; };
 		F4C6D058262A26CC00401995 /* TriCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */; };
 		F4C6D060262AF40E00401995 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D05F262AF40D00401995 /* Calculations.swift */; };
+		F4D1DAB02632F97100617E5F /* TriOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449510B252E3DF800CD9ED6 /* TriOutputViewController.swift */; };
+		F4D1DAB22632F9C000617E5F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D1DAB12632F9C000617E5F /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		F4C6D057262A26CC00401995 /* TriCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriCalculatorTests.swift; sourceTree = "<group>"; };
 		F4C6D059262A26CC00401995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C6D05F262AF40D00401995 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		F4D1DAB12632F9C000617E5F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				F44950FC2522475200CD9ED6 /* Triathlon.swift */,
 				F4C6D05F262AF40D00401995 /* Calculations.swift */,
+				F4D1DAB12632F9C000617E5F /* Time.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D1DAB22632F9C000617E5F /* Time.swift in Sources */,
 				F44950EB2522470200CD9ED6 /* ViewController.swift in Sources */,
-				F449510C252E3DF800CD9ED6 /* TriOutputViewController.swift in Sources */,
 				F44951082527A71500CD9ED6 /* StartViewController.swift in Sources */,
 				F449510A252DFA9D00CD9ED6 /* TriathlonViewController.swift in Sources */,
 				F44950E72522470200CD9ED6 /* AppDelegate.swift in Sources */,
@@ -283,6 +286,7 @@
 				F44951062527433100CD9ED6 /* RunViewController.swift in Sources */,
 				F44950E92522470200CD9ED6 /* SceneDelegate.swift in Sources */,
 				F44950FD2522475200CD9ED6 /* Triathlon.swift in Sources */,
+				F4D1DAB02632F97100617E5F /* TriOutputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

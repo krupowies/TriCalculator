@@ -32,40 +32,51 @@ class TriOutputViewController: UIViewController {
     
     var totalTime = 0.0
     var currentTriathlon = Triathlon(swimDistance: 0.0, bikeDistance: 0.0, runDistance: 0.0, swimTimeRatio: 0.0, bikeTimeRatio: 0.0, runTimeRatio: 0.0)
+    
     var currentSwimPace: Double = 0.0
     var currentBikePace: Double = 0.0
     var currentRunPace: Double = 0.0
-
     
+    var swimtActiveTime = Time()
+    var biketActiveTime = Time()
+    var runtActiveTime = Time()
+    
+
     @IBAction func fasterSwimButtonTap(_ sender: Any) {
         currentTriathlon.swimFaster()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
     @IBAction func slowerSwimButtonTap(_ sender: Any) {
         currentTriathlon.swimSlower()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
     @IBAction func fasterBikeButtonTap(_ sender: Any) {
         currentTriathlon.bikeFaster()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
     @IBAction func slowerBikeButtonTap(_ sender: Any) {
         currentTriathlon.bikeSlower()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
 
     @IBAction func fasterRunButtonTap(_ sender: Any) {
         currentTriathlon.runFaster()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
     @IBAction func slowerRunButtonTap(_ sender: Any) {
         currentTriathlon.runSlower()
         calculateTriathlonPace()
+        showActiveTime()
     }
     
     
@@ -75,7 +86,7 @@ class TriOutputViewController: UIViewController {
         print(currentTriathlon)
         
         calculateTriathlonPace()
-        
+        showActiveTime()
     }
     
     func calcTriathlonSwim() ->Double {
@@ -111,6 +122,24 @@ class TriOutputViewController: UIViewController {
         let minutesValue = Int(roundPace)
         let secondsValue = Int(roundPace.truncatingRemainder(dividingBy: 1) * 60)
         triathlonRunPace.text = String(format: "%02d:%02d", minutesValue,secondsValue )
+    }
+    
+    func showActiveTime(){
+        swimtActiveTime = swimtActiveTime.format(totalTime: totalTime * currentTriathlon.swimTimeRatio)
+        biketActiveTime = biketActiveTime.format(totalTime: totalTime * currentTriathlon.bikeTimeRatio)
+        runtActiveTime = runtActiveTime.format(totalTime: totalTime * currentTriathlon.runTimeRatio)
+        
+        hoursSwimTime.text = String(swimtActiveTime.hours)
+        minutesSwimTime.text = String(swimtActiveTime.minutes)
+        secondsSwimTime.text = String(swimtActiveTime.seconds)
+        
+        hoursBikeTime.text = String(biketActiveTime.hours)
+        minutesBikeTime.text = String(biketActiveTime.minutes)
+        secondsBikeTime.text = String(biketActiveTime.seconds)
+        
+        hoursRunTime.text = String(runtActiveTime.hours)
+        minutesRunTime.text = String(runtActiveTime.minutes)
+        secondsRunTime.text = String(runtActiveTime.seconds)
     }
     
     func calculateTriathlonPace(){
